@@ -1,0 +1,74 @@
+html,
+body {
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	color: #626262;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.7px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; 
+}
+
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box; 
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400;
+	color: #626262;
+}
+
+.button_js{
+	text-align: center;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #f6848d;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	align-self: center;
+	padding: 19px 45px;
+	margin: 25px;
+	cursor: pointer;
+	/*border: none;*/
+	
+}
+.btn:hover {
+	background: #F46C77;
+
+}
+
+.btn_add.active {
+	padding: 29px 45px;
+}
+
+.btn_remove.active {
+	padding: 29px 45px;
+}
+
+.btn_toggle.active {
+	padding: 29px 45px;
+}
+
+.btn_setAttr{
+  background: #9b2f5c;
+}
